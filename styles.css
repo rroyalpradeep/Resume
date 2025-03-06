@@ -7,6 +7,27 @@ body {
     background-color: #f4f4f4;
 }
 
+.downloadBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    background-color: #50d1a2;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 1vw;
+    border-radius: 6px;
+  }
+  
+  .download:hover {
+    background-color: #2aa377;
+  }
+
 .container {
     max-width: 1200px;
     margin: 20px auto;
